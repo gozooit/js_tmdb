@@ -301,31 +301,31 @@
     "url": "/network/:network_id"
   },
 
-  "/person/info": {
-    "url": "/person/:id",
+  "/person/details": {
+    "url": "/person/:person_id",
     "append_to_response": true
   },
   "/person/movie_credits": {
-    "url": "/person/:id/movie_credits"
+    "url": "/person/:person_id/movie_credits"
   },
   "/person/tv_credits": {
-    "url": "/person/:id/tv_credits"
+    "url": "/person/:person_id/tv_credits"
   },
   "/person/credits": {
-    "url": "/person/:id/combined_credits"
+    "url": "/person/:person_id/combined_credits"
   },
   "/person/external_ids": {
-    "url": "/person/:id/external_ids"
+    "url": "/person/:person_id/external_ids"
   },
   "/person/images": {
-    "url": "/person/:id/images"
+    "url": "/person/:person_id/images"
   },
   "/person/tagged_images": {
-    "url": "/person/:id/tagged_images",
+    "url": "/person/:person_id/tagged_images",
     "pagination": true
   },
   "/person/changes": {
-    "url": "/person/:id/changes?start_date=&end_date=",
+    "url": "/person/:person_id/changes?start_date=&end_date=",
     "pagination": true,
     "optional": ["start_date", "end_date"]
   },
