@@ -152,8 +152,8 @@ class TMDB {
       body: (method.body ? Object.assign({}, method.body) : {})
     }
 
-    console.log(url)
-    console.log(req)
+    // console.log(url)
+    // console.log(req)
 
     for (let k in params) {
       if (k in req.body) req.body[k] = params[k]
